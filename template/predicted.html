@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: blanchedalmond;
+            text-align: center;
+        }
+    </style>
+    <title>Iris Flower</title>
+</head>
+<body>
+    <h1>PREDICTION</h1>
+    <h2>Predicted value is : </h2>
+
+    {% if data==0 %}
+    <h2>Iris-Santosa</h2>
+
+    {% else %}
+    <h2>Iris-Versicolor</h2>
+
+    {% endif %}
+
+    <a href="/">go back to homepage</a>
+
+
+</body>
+</html>

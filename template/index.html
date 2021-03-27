@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: cadetblue;
+            text-align: center;
+        }
+    </style>
+    <title>Iris Flower</title>
+</head>
+<body>
+    <h1>IRIS FLOWER CLASSIFICATION</h1>
+    <form method="POST" action="{{url_for('index')}}">
+        <b>
+            First Value  :  <input type="text" name="a" placeholder="Enter value" required><br><br>
+            Second Value : <input type="text" name="b" placeholder="Enter value" required><br><br>
+            Third Value  :  <input type="text" name="c" placeholder="Enter value" value="1"><br><br>
+            Fourth Value : <input type="text" name="d" placeholder="Enter value" value="1"><br><br>
+            <input type="submit" value="predict">
+        </b>
+    </form>
+</body>
+</html>
